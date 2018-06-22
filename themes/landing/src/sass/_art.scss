@@ -12,3 +12,19 @@ article.art {
         }
     }
 }
+
+article.art_detail {
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-row-gap: 36pt;
+
+    & > iframe {
+        margin: 0; padding: 0;
+    }
+
+    & > .content {
+        font-size: 18pt;
+    }
+}

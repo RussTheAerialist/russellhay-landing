@@ -1,9 +1,9 @@
-{{ partial "header.html" }}
+{{ partial "header.html" . }}
 <div id="container" class="small">
     <header>
         <div class="hexSmall"><div class="chunk1"><div class="chunk2"></div></div></div>
-        <h1><a href="/">{{ $.Site.Params.name }}</a></h1>
-        <h2>{{ .Title }}</h2>
+        <h1><a href="/">{{ $.Site.Params.name | lower }}</a></h1>
+        <h2>{{ .Title | lower }}</h2>
     </header>
     <div class="content">
         {{ block "main" . }}

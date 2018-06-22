@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article class="art_detail">
+    <header>{{ if .Param "vimeo" }}
+        {{ .Render "vimeo" }}
+        {{ end }}
+        {{ if .Param "youtube" }}
+        {{ .Render "youtube" }}
+        {{ end }}
+    </header>
+    <div class="content">
+    {{ .Content }}
+    </div>
+</article>
+{{ end }}
