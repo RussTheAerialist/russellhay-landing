@@ -1,0 +1,12 @@
+{{ partial "header.html" }}
+<div id="container">
+    {{ .Content }}
+    <ul class="links">
+    {{ range sort $.Site.Data.links "title" }}
+    <li><h1><a href="{{ .ref }}">{{ .title | lower }}</a></h1>
+        <p>{{ .description | plainify | lower }}</p>
+    </li>
+    {{ end }}
+    </ul>
+</div>
+{{ partial "footer.html" }}

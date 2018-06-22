@@ -1,0 +1,38 @@
+body {
+    font-family: "Avenir Next", Verdana, Helvetica;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0; padding: 0;
+}
+
+@import "hex";
+@import "links";
+
+#container {
+    max-width: 960px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    // & > * {
+    //     border: 1px solid red;
+    // }
+
+    & > header {
+        align-self: center;
+
+        h1 {
+            font-size: 36pt;
+        }
+
+        h2 {
+            font-weight: lighter;
+            font-size: 18pt;
+        }
+
+        p {
+            font-weight: lighter;
+            font-size: 14pt;
+        }
+    }
+}
