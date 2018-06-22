@@ -1,17 +1,21 @@
-.hex {
+$imageSize: 125px;
+$hexWidth: $imageSize - 30px;
+$hexHeight: $hexWidth * 2;
+
+.hex, .hexSmall {
     overflow: hidden;
     visibility: hidden;
     transform: rotate(120deg);
     background-repeat: no-repeat;
     background-position: 50%;
-    // border: 3px solid red;
+    // border: 1px solid red;
 
     .chunk1 {
         overflow: hidden;
         width: 100%;
         height: 100%;
         transform: rotate(-60deg);
-        // border: 3px solid red;
+        // border: 1px solid blue;
 
         .chunk2 {
             width: 100%;
@@ -20,7 +24,17 @@
             transform: rotate(-60deg);
             background-repeat: no-repeat;
             background-position: 50%;
-            // border: 3px solid red;
+            // border: 1px solid green;
         }
+    }
+}
+
+.hexSmall {
+    width: $hexWidth;
+    height: $hexHeight;
+    margin: -40px 0 -40px 0;
+
+    .chunk2 {
+        background-image: url(http://placekitten.com/150/150);
     }
 }

@@ -3,3 +3,6 @@ languageCode = "en-us"
 title = "Russell Hay, a creative technologist in Seattle"
 theme = "landing"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+    name = "Russell Hay"
