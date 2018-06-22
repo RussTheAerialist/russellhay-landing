@@ -1,0 +1,14 @@
+article.art {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 18pt;
+
+    & > header { 
+        grid-column: 1 / span 2;
+        & > h1 > a {
+            font-size: 20pt;
+            font-weight: bold;
+        }
+    }
+}

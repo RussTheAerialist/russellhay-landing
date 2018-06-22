@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{ range sort .Pages "Title" }}
+<article class="art">
+    <header><h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1></header>
+    <div class="preview"><a href="{{ .Permalink }}"><img src="{{ .Param "icon" }}" alt="{{ .Summary }}" /></a></div>
+    <div class="summary">{{ .Summary }}{{ if .Truncated }}<a href="{{ .Permalink }}">...</a>{{ end }}</div>
+</article>
+{{ end }}
+{{ end }}

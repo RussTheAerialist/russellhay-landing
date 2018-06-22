@@ -1,0 +1,24 @@
+#container.small {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    grid-row-gap: 72pt;
+
+    header {
+        display: grid;
+        grid-template-columns: auto auto 1fr;
+        grid-column-gap: 12pt;
+        align-items: center;
+        h1 {
+            font-weight: lighter;
+
+            a { 
+                color: $textColor;
+                text-decoration: none;
+            }
+        }
+
+        h2 {
+            font-size: 36pt;
+        }
+    }
+}
