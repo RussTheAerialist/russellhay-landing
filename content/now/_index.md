@@ -1,6 +1,6 @@
 +++
 title = "now"
 +++
-* List of
-* Todo
-* items
+* starting a business
+* editing films
+* focusing on meditation practice

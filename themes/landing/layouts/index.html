@@ -2,11 +2,11 @@
 <div id="container" class="landing">
     {{ .Content }}
     <ul class="links">
-    {{ range sort $.Site.Data.links "title" }}
+    {{ range sort $.Site.Data.links "title" }}{{ if not (isset . "draft") }}
     <li><h1><a href="{{ .ref }}">{{ .title | lower }}</a></h1>
         <p>{{ .description | plainify | lower }}</p>
     </li>
-    {{ end }}
+    {{ end }}{{ end }}
     </ul>
 </div>
 {{ partial "footer.html" }}

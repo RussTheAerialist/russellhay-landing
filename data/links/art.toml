@@ -1,3 +1,4 @@
 title = "/art"
 ref = "/art"
 description = "Art Installations and Projects"
+draft = true
