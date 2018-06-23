@@ -1,4 +1,5 @@
 {{ define "main" }}
+<div class="hero">{{ .Content }}</div>
 <div class="films">
 {{ range .Data.Pages.GroupByParam "project_type" }}
 <section class="film_type {{ replace .Key " " "-" }}">

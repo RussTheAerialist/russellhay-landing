@@ -4,6 +4,11 @@ $filmColor3: adjust-hue($filmColor2, 45deg);
 $filmColor4: adjust-hue($filmColor3, 45deg);
 $filmColor5: adjust-hue($filmColor4, 45deg);
 
+.hero {
+    margin-top: -36pt;
+    margin-bottom: 36pt;
+}
+
 .films {
     display: grid;
     grid-template-columns: 1fr 1fr;
