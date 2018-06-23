@@ -1,0 +1,72 @@
+$filmColor1: #ad4925;
+$filmColor2: adjust-hue($filmColor1, 45deg);
+$filmColor3: adjust-hue($filmColor2, 45deg);
+$filmColor4: adjust-hue($filmColor3, 45deg);
+$filmColor5: adjust-hue($filmColor4, 45deg);
+
+.films {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 60pt;
+
+    h1 {
+        font-size: 24pt;
+        font-weight: normal !important;
+    }
+
+    h2 {
+        font-weight: lighter;
+        font-size: 14pt;
+    }
+}
+
+.film_type {
+    margin-bottom: 30pt;
+
+    &.narrative-short {
+        grid-row: 1 / span 4;
+        // h1,
+        a { color: $filmColor1; }
+    }
+
+    &.music-video {
+        // h1, 
+        a { color: $filmColor2; }
+    }
+
+    &.corporate {
+        // h1, 
+        a { color: $filmColor3; }
+    }
+
+    &.documentary {
+        // h1, 
+        a { color: $filmColor4; }
+    }
+
+    &.series {
+        // h1, 
+        a { color: $filmColor5; }
+    }
+}
+
+.film {
+    margin-bottom: 1.5em;
+    margin-left: 1.5em;
+    
+    .roles {
+        font-weight: lighter;
+        font-size: 10pt;
+    }
+
+    .links {
+        a {
+            text-decoration: none;
+            font-size: 10pt;
+            &:after {
+                content: ' \01F517';
+                font-size: 0.75em;
+            }
+        }
+    }
+}

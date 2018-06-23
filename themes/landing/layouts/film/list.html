@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="films">
+{{ range .Data.Pages.GroupByParam "project_type" }}
+<section class="film_type {{ replace .Key " " "-" }}">
+  <header><h1>{{ .Key | lower }}</h1></header>
+{{ range $index, $page := .Pages.ByDate.Reverse }}
+  <div class="film">
+      <h2>{{ $page.Title }}</h2>
+      <div class="roles">{{ delimit $page.Params.role ", " " &amp; " }}</div>
+      <div class="links">
+            {{ if $page.Params.imdb }}<span><a href="{{ $page.Params.imdb }}">IMDB</a></span>{{ end }}{{ if $page.Params.watch }}
+            <span><a href="{{ $page.Params.watch }}">Watch</a></span></span>{{ end }}
+      </div>
+  </div>
+{{ end }}
+</section>
+{{ end }}
+</div>
+{{ end }}
