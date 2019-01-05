@@ -1,6 +1,6 @@
 +++
 title = "now"
 +++
-* starting a business
-* editing films
-* focusing on meditation practice
+* 12-week Healthy Flex Prescription with Kevin Hejnasty
+* Learning Screenprinting
+* Exploring what Language Hunting is
