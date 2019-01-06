@@ -1,0 +1,4 @@
+icon = "/icons/twitch.svg"
+href = "https://www.twitch.tv/stainlessio"
+alt = "@stainlessio"
+id = "twitch"

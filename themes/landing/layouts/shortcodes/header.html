@@ -1,4 +1,20 @@
-<div class="hex" style="width: {{ .Get 1 }}px; height: {{ .Get 2 }}px; margin-left: {{ .Get 3 }}px; "><div class="chunk1"><div class="chunk2" style="background-image: url({{ .Get 0 }});"></div></div></div>
+<div class="hexgrid">
+    <style>
+        #headshot { grid-area: headshot }
+        {{ range $.Site.Data.social }}
+        #{{ .id }} { grid-area: {{ .id }} }
+        {{ end }}
+    </style>
+    <div class="hex odd" id="headshot"><img src="/img/headshot.png"></div>
+    {{ .Scratch.Set "hexcount" 1 }}
+    {{ range $.Site.Data.social }}
+    <div class="hex{{ if eq (mod ($.Scratch.Get "hexcount") 2) 1 }} even{{ else }} odd{{ end }}" id="{{ .id }}"><a
+        href="{{ .href }}" target="_blank"><img
+        src="{{ .icon }}" alt="{{ .alt }}" /></a></div>
+    {{ $.Scratch.Add "hexcount" 1 }}
+    {{ end }}
+</div>
+
 <header>
 {{ .Inner | markdownify }}
 </header>

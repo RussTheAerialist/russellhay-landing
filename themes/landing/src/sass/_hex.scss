@@ -2,7 +2,43 @@ $imageSize: 125px;
 $hexWidth: $imageSize - 30px;
 $hexHeight: $hexWidth * 2;
 
-.hex, .hexSmall {
+.hexgrid {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: $imageSize;
+    grid-template-areas: "instagram twitter ." "vimeo headshot youtube" "spotify twitch .";
+    margin-right: 2rem;
+}
+
+.hex {
+    // position: relative;
+    position: absolute;
+    width: $hexWidth;
+    // height: $hexHeight;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+#instagram, #twitter {
+    left: $hexWidth / 2;
+    top: $hexHeight / 4;
+}
+
+#spotify, #twitch {
+    top: -$hexHeight / 4;
+    left: $hexWidth / 2;
+}
+
+#headshot {
+    // width: $hexWidth * 1.5;
+
+}
+
+.hexSmall {
     overflow: hidden;
     visibility: hidden;
     transform: rotate(120deg);
