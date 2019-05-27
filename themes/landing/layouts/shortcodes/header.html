@@ -6,13 +6,13 @@
         {{ end }}
     </style>
     <div class="hex odd" id="headshot"><img src="/img/headshot.png"></div>
-    {{ .Scratch.Set "hexcount" 1 }}
-    {{ range $.Site.Data.social }}
+    {{- .Scratch.Set "hexcount" 1 -}}
+    {{- range $.Site.Data.social -}}
     <div class="hex{{ if eq (mod ($.Scratch.Get "hexcount") 2) 1 }} even{{ else }} odd{{ end }}" id="{{ .id }}"><a
         href="{{ .href }}" target="_blank"><img
         src="{{ .icon }}" alt="{{ .alt }}" /></a></div>
-    {{ $.Scratch.Add "hexcount" 1 }}
-    {{ end }}
+    {{- $.Scratch.Add "hexcount" 1 -}}
+    {{- end -}}
 </div>
 
 <header>
