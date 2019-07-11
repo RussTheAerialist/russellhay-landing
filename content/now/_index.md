@@ -1,7 +1,4 @@
 +++
 title = "now"
 +++
-* Soccer Camp
-* Buying a House
-* Building a productivity suite
-* Learning GLSL
+* Moving into a new house
