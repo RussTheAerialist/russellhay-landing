@@ -5,7 +5,7 @@ title = "Rent my room!"
 
 ![house front](/house/1448085_1.jpg) ![kitchen](/house/1448085_5_2.jpg)
 
-A charming craftsman-ish house with a large kitchen, great entertainment spaces, and large space
+A charming craftsman-ish house in the Greenwood neighborhood with a large kitchen, great entertainment spaces, and large space
 for crafting. Most of the rooms have carpet, and a small home gym in the basement completes the
 package.  Large screen tv, ps4, switch, and apple tv in the common space.
 
@@ -20,6 +20,14 @@ into a woodshop for dust-generating processes.
 ## Accessibility Information
 
 The house is a multistory house and the bedroom for rent is on the upper floor.  The stairwell is a narrow stairwell as was normal in the 1910s when this house was built. The stairs to the basement are open, but missing safety rails currently.
+
+## Transportation
+
+Walkability score of 81. Transit score of 53. Bike score of 85.
+
+Close to the 5, 28, 45, 335, and 994 bus lines.
+
+Parking spot available through alley access if requested.
 
 # The Room
 
