@@ -17,6 +17,10 @@ Two workshop spaces will be built in the coming year. The basement will be used 
 sewing, soldering, and other "maker" type activities. The shed in the backyard will be turned
 into a woodshop for dust-generating processes.
 
+## Accessibility Information
+
+The house is a multistory house and the bedroom for rent is on the upper floor.  The stairwell is a narrow stairwell as was normal in the 1910s when this house was built. The stairs to the basement are open, but missing safety rails currently.
+
 # The Room
 
 ![room](/house/1448085_2_2.jpg)
@@ -27,10 +31,11 @@ paint to any color you would like (within a selected color palette) prior to mov
 
 The upstairs bathroom would be shared with me.
 
-Asking $800 with utilities included. Internet access is an additional $50 / month.
+## Rent and Fees
 
-A security deposit of $300 and first months' rent due upon lease signing, but flexible move in
-date and lease terms.
+$800 with utilities included. Internet access is an additional $50 / month.
+
+A security deposit of $300 and first months' rent due upon lease signing, but flexible move in date and lease terms. There is a background check fee paid directly to MySmartMove.
 
 # Me
 
