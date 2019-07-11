@@ -33,7 +33,7 @@ The upstairs bathroom would be shared with me.
 
 ## Rent and Fees
 
-$800 with utilities included. Internet access is an additional $50 / month.
+$850 with utilities and internet included.
 
 A security deposit of $300 and first months' rent due upon lease signing, but flexible move in date and lease terms. There is a background check fee paid directly to MySmartMove.
 
